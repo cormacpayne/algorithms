@@ -2,8 +2,8 @@ Algorithms
 ==========
 Contains various algorithms needed for competitive programming
 
-- Breadth First Search (Mine)
-- Depth First Search (Mine)
+- ~~Breadth First Search (Mine)~~
+- ~~Depth First Search (Mine)~~
 - Dijkstra's Algorithm (Mine/NEW including PQ)
 - Floyd-Warshall Algorithm (NEW)
 - Kd Trees (NEW)
