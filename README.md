@@ -30,3 +30,8 @@ Contains various algorithms needed for competitive programming
 - Edge Coloring (NEW)
 - Largest Common Substring/Subsequence (NEW)
 - Shortest Common Superstring (NEW)
+- Rotating Calipers (NEW)
+- Sweep Line (NEW)
+- Suffix Tree/Array (NEW)
+- Lowest-Common-Ancestor (NEW)
+- Strongly Connected Components (NEW)
