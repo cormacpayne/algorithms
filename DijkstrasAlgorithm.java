@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-class DijkstrasAlgorithm{
+class DijkstrasAlgorithm {
 
 	/* Dijkstra's algorithm finds the shorest path on a weighted graph between
 	* any two vertices. In order to do this, we will utilize a PriorityQueue, which
@@ -23,7 +23,7 @@ class DijkstrasAlgorithm{
 	* otherwise, we return the minimum distance of the destination vertex. 
 	*/
 
-	public static int Dijkstras(Vertex[] graph, int source, int destination){
+	public static int Dijkstras(Vertex[] graph, int source, int destination) {
 		//current keeps track of the vertex we are currently looking at
 		Vertex current = graph[source];
 		//set the minimum distance of the source vertex to 0
@@ -35,17 +35,17 @@ class DijkstrasAlgorithm{
 		priorityQueue.add(current);
 
 		//continue while the queue is not empty
-		while(!priorityQueue.isEmpty()){
+		while (!priorityQueue.isEmpty()) {
 			//current is the next vertex in the queue, or the vertex with the minimum distance
 			current = priorityQueue.remove();
 
 			//if we are currently looking at the destination vertex, break out of the loop
-			if(current.id == destination){
+			if (current.id == destination) {
 				break;
 			}
 
 			//examine each neighbor of the current vertex by looking at each edge that connects them
-			for(Edge edge : current.neighbors){
+			for (Edge edge : current.neighbors) {
 				//end keeps track of the vertex opposite of the current vertex on the edge
 				Vertex end = graph[edge.end];
 				//distance keeps track of the distance between the current vertex and the end vertex
@@ -55,7 +55,7 @@ class DijkstrasAlgorithm{
 				int newDistance = current.minDistance + distance;
 
 				//if the newDistance is less than the minimum distance of the end vertex, replace it
-				if(newDistance < end.minDistance){
+				if (newDistance < end.minDistance) {
 					priorityQueue.remove(end);
 					end.minDistance = newDistance;
 					priorityQueue.add(end);
@@ -64,28 +64,28 @@ class DijkstrasAlgorithm{
 		}
 
 		//if we haven't visited the destination vertex, return -1, otherwise, return the distance
-		if(graph[destination].minDistance == Integer.MAX_VALUE){
+		if (graph[destination].minDistance == Integer.MAX_VALUE) {
 			return -1;
-		}else{
+		} else {
 			return graph[destination].minDistance;
 		}
 	}	
 
-	public static void main(String[] ags)throws Exception{
+	public static void main(String[] ags) throws Exception {
 		Scanner in = new Scanner(System.in);
 		int t = in.nextInt();
 
-		for(int i = 0; i < t; i++){
+		for (int i = 0; i < t; i++) {
 			int vertices = in.nextInt();
 			int edges = in.nextInt();
 
 			Vertex[] graph = new Vertex[vertices+1];
 
-			for(int j = 1; j <= vertices; j++){
+			for (int j = 1; j <= vertices; j++) {
 				graph[j] = new Vertex(j);
 			}
 
-			for(int k = 0; k < edges; k++){
+			for (int k = 0; k < edges; k++) {
 				int a = in.nextInt();
 				int b = in.nextInt();
 				int distance = in.nextInt();
@@ -97,33 +97,33 @@ class DijkstrasAlgorithm{
 
 			int result = Dijkstras(graph, source, destination);
 
-			if(result == -1){
+			if (result == -1) {
 				System.out.println("NO");
-			}else{
+			} else {
 				System.out.println(result);
 			}
 		}
 	}	
 
-	static class Vertex implements Comparable<Vertex>{
+	static class Vertex implements Comparable<Vertex> {
 		int id, minDistance;
 		List<Edge> neighbors;
 
-		public Vertex(int id){
+		public Vertex(int id) {
 			this.id = id;
 			this.minDistance = Integer.MAX_VALUE;
 			this.neighbors = new ArrayList<Edge>();
 		}
 		
-		public int compareTo(Vertex v){
+		public int compareTo(Vertex v) {
 			return (this.minDistance > v.minDistance) ? 1 : -1;
 		}
 	}
 
-	static class Edge{
+	static class Edge {
 		int end, distance;
 
-		public Edge(int end, int distance){
+		public Edge(int end, int distance) {
 			this.end = end;
 			this.distance = distance;
 		}
