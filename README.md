@@ -8,7 +8,7 @@ Contains various algorithms needed for competitive programming
 - Floyd-Warshall Algorithm (NEW)
 - Kd Trees (NEW)
 - Kruskal's Algorithm (UCF/Mine)
-- Prim's Algorithm (Mine)
+- ~~Prim's Algorithm (Mine)~~
 - Bellman-Ford Algorithm (NEW)
 - Borkuva's Algorithm (NEW)
 - Ford-Fulkerson Algorithm (UF)
