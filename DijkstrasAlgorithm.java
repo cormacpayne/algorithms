@@ -2,7 +2,8 @@ import java.util.*;
 import java.io.*;
 class DijkstrasAlgorithm {
 
-	/* Dijkstra's algorithm finds the shorest path on a weighted graph between
+	/*
+	* Dijkstra's algorithm finds the shorest path on a weighted graph between
 	* any two vertices. In order to do this, we will utilize a PriorityQueue, which
 	* functions the same as a regular queue (push and pop elements), but
 	* is different in that it sorts the elements in the queue as they are pushed
