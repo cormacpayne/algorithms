@@ -7,7 +7,7 @@ Contains various algorithms needed for competitive programming
 - ~~Dijkstra's Algorithm (NEW including PQ)~~
 - Floyd-Warshall Algorithm (NEW)
 - Kd Trees (NEW)
-- Kruskal's Algorithm (UCF/Mine)
+- ~~Kruskal's Algorithm (UCF/Mine)~~
 - ~~Prim's Algorithm (Mine)~~
 - Bellman-Ford Algorithm (NEW)
 - Borkuva's Algorithm (NEW)
