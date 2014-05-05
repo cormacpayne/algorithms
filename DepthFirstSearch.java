@@ -2,7 +2,8 @@ import java.util.*;
 import java.io.*;
 class DepthFirstSearch {
 
-	/* Returns true if the graph is a tree. By definition, a tree is a graph that
+	/* 
+	* Returns true if the graph is a tree. By definition, a tree is a graph that
 	* doesn't contain a cycle and is minimally connected, that is, if we remove any 
 	* edge from the graph, it ceases to be connected. In addition, the number of
 	* vertices in a tree is equal to the number of edges + 1. Depth-first search
