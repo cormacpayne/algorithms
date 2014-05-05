@@ -3,7 +3,8 @@ import java.io.*;
 
 class PrimsAlgorithmMST {
 
-	/* Prim's Algorithm is used to find the minimum spanning tree for a connect
+	/* 
+	* Prim's Algorithm is used to find the minimum spanning tree for a connect
 	* weighted undirected graph. This means it finds a subset of the edges that
 	* forms a tree that includes every vertex, where the total weight of all the
 	* edges in the tree is minimized. Initialize a tree with a single vertex,
