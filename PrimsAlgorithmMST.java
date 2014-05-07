@@ -3,6 +3,16 @@ import java.io.*;
 
 class PrimsAlgorithmMST {
 
+	/*
+	* SPOJ Problems:
+	* - CSTREET
+	* - MST
+	*
+	* UCF Problems:
+	* - CPU - 2007
+	* - ANT - 2014
+	*/
+
 	/* 
 	* Prim's Algorithm is used to find the minimum spanning tree for a connect
 	* weighted undirected graph. This means it finds a subset of the edges that
