@@ -1,6 +1,23 @@
 import java.util.*;
 import java.io.*;
 class DepthFirstSearch {
+	
+	/*
+	* SPOJ Problems:
+	* - ABCPATH
+	* - BENEFACT
+	* - BITMAP
+	* - CCHESS
+	* - ESCJAILA
+	* - LABYR1
+	* - MICEMAZE
+	* - PT07Y
+	* - PT07Z
+	* - PYRA
+	* - SHOP
+	* - TUTBFS
+	* - UCV2013H
+	*/
 
 	/* 
 	* Returns true if the graph is a tree. By definition, a tree is a graph that
