@@ -6,6 +6,9 @@ class DijkstrasAlgorithm {
 	* SPOJ Problems:
 	* - CHICAGO
 	* - EZDIJKST
+	* - FISHER
+	* - FPOLICE
+	* - HIGHWAYS
 	* - MICEMAZE
 	*/
 
