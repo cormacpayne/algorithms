@@ -7,6 +7,7 @@ class BreadthFirstSearch {
 	* - ABCPATH
 	* - BENEFACT
 	* - BITMAP
+	* - BYTESE1
 	* - CCHESS
 	* - ESCJAILA
 	* - LABYR1
