@@ -81,6 +81,7 @@ class PrimsAlgorithmMST {
 				int finish = in.nextInt();
 				int cost = in.nextInt();
 				graph[start].neighbors.add(new Edge(finish, cost));
+				graph[finish].neighbors.add(new Edge(start, cost));
 			}
 
 			int cost = PrimsAlgorithm(graph, 1);
