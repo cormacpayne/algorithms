@@ -1,6 +1,13 @@
 import java.util.*;
 import java.io.*;
 class DijkstrasAlgorithm {
+	
+	/*
+	* SPOJ Problems:
+	* - CHICAGO
+	* - EZDIJKST
+	* - MICEMAZE
+	*/
 
 	/*
 	* Dijkstra's algorithm finds the shorest path on a weighted graph between
