@@ -10,6 +10,7 @@ class DijkstrasAlgorithm {
 	* - FPOLICE
 	* - HIGHWAYS
 	* - MICEMAZE
+	* - PPATH
 	*/
 
 	/*
