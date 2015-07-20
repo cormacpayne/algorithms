@@ -47,6 +47,7 @@ Contains various algorithms needed for competitive programming
 - [Aho-Corasik Algorithm](https://gist.github.com/andmej/1233426)
 - [Longest Common Substring/Subsequence](http://www.geeksforgeeks.org/longest-common-substring/)
 - [Shortest Common Superstring](https://en.wikipedia.org/wiki/Shortest_common_supersequence)
+- [Longest Palindromic Substring](http://articles.leetcode.com/2011/11/longest-palindromic-substring-part-ii.html)
 
 **String Data Structures**
 - [Suffix Tree/Array](http://stackoverflow.com/questions/9452701/ukkonens-suffix-tree-algorithm-in-plain-english)
@@ -55,6 +56,7 @@ Contains various algorithms needed for competitive programming
 **Advanced Data Structures**
 - [Segment Trees](http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
 - [Binary Indexed Trees](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/)
+- [Binary Search Trees](http://geeksquiz.com/binary-search-tree-set-1-search-and-insertion/)
 - [Treaps](https://en.wikipedia.org/wiki/Treap)
 - [Skip Lists](https://en.wikipedia.org/wiki/Skip_list)
 - [Kd Trees](http://www.autonlab.org/autonweb/14665/version/2/part/5/data/moore-tutorial.pdf?branch=main&language=en)
