@@ -2,10 +2,10 @@ Algorithms
 ==========
 Contains various algorithms needed for competitive programming
 
-- ~~Breadth First Search (Mine)~~
-- ~~Depth First Search (Mine)~~
-- ~~Dijkstra's Algorithm (NEW including PQ)~~
-- Floyd-Warshall Algorithm (NEW)
+- ~~Breadth First Search~~
+- ~~Depth First Search~~
+- ~~Dijkstra's Algorithm~~
+- [Floyd-Warshall Algorithm](http://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
 - Kd Trees (NEW)
 - ~~Kruskal's Algorithm (UCF/Mine)~~
 - ~~Prim's Algorithm (Mine)~~
