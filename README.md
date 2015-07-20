@@ -10,24 +10,40 @@ Contains various algorithms needed for competitive programming
 - Bellman-Ford Algorithm
 - ~~Prim's Algorithm~~
 - ~~Kruskal's Algorithm~~
+- Borkuva's Algorithm
 - Heavy-Light Decomposition
 - Strongly Connected Components
 - Euler Tour
 
-
-- Kd Trees
-- Borkuva's Algorithm
+**Flow Algorithms**
 - Ford-Fulkerson Algorithm
-- Push-Relabel Algorithm
 - Dinic's Algorithm
-- Convex Hull
+- Push-Relabel Algorithm
+- Min-Cost Max-Flow
 - Maximum Bipartite Matching
 - Hungarian Algorithm
+
+**Dynamic Programming**
+
+**Geometry**
+- Convex Hull
+
+**Number Theory**
+- GCD
+- LCM
+- Extended Euclidean
+- Euler Totient Function
+- Sieve of Eratosthenes
+
+**String Algorithms**
+- Knuth-Morris-Pratt Algorithm
+- Boyre-Moore Algorithm
+- Aho-Corasik Algorithm
+
+- Kd Trees
 - Segment Trees
 - Binary Indexed Trees
 - Backtracking/Pruning
-- Knuth-Morris-Pratt Algorithm
-- Boyre-Moore Algorithm
 - Vertex Cover
 - Traveling Salesman Problem
 - Hamiltonian Cycle
