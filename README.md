@@ -2,21 +2,25 @@ Algorithms
 ==========
 Contains various algorithms needed for competitive programming
 
+**Graph Algorithms**
 - ~~Breadth First Search~~
 - ~~Depth First Search~~
 - ~~Dijkstra's Algorithm~~
 - [Floyd-Warshall Algorithm](http://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
-- Kd Trees
-- ~~Kruskal's Algorithm~~
-- ~~Prim's Algorithm~~
 - Bellman-Ford Algorithm
+- ~~Prim's Algorithm~~
+- ~~Kruskal's Algorithm~~
+- Heavy-Light Decomposition
+- Strongly Connected Components
+- Euler Tour
+
+
+- Kd Trees
 - Borkuva's Algorithm
 - Ford-Fulkerson Algorithm
 - Push-Relabel Algorithm
 - Dinic's Algorithm
 - Convex Hull
-- Heavy-Light Decomposition
-- Euler Tour
 - Maximum Bipartite Matching
 - Hungarian Algorithm
 - Segment Trees
@@ -34,4 +38,3 @@ Contains various algorithms needed for competitive programming
 - Sweep Line
 - Suffix Tree/Array
 - Lowest-Common-Ancestor
-- Strongly Connected Components
