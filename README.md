@@ -6,32 +6,32 @@ Contains various algorithms needed for competitive programming
 - ~~Depth First Search~~
 - ~~Dijkstra's Algorithm~~
 - [Floyd-Warshall Algorithm](http://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/)
-- Kd Trees (NEW)
-- ~~Kruskal's Algorithm (UCF/Mine)~~
-- ~~Prim's Algorithm (Mine)~~
-- Bellman-Ford Algorithm (NEW)
-- Borkuva's Algorithm (NEW)
-- Ford-Fulkerson Algorithm (UF)
-- Push-Relabel Algorithm (UF)
-- Dinic's Algorithm (UF)
-- Convex Hull (UF)
-- Heavy-Light Decomposition (NEW)
-- Euler Tour (NEW)
-- Maximum Bipartite Matching (UF)
-- Hungarian Algorithm (NEW)
-- Segment Trees (NEW)
-- Binary Indexed Trees (NEW)
-- Backtracking/Pruning (NEW)
-- Knuth-Morris-Pratt Algorithm (NEW)
-- Boyre-Moore Algorithm (NEW)
-- Vertex Cover (NEW)
-- Traveling Salesman Problem (NEW)
-- Hamiltonian Cycle (NEW)
-- Edge Coloring (NEW)
-- Largest Common Substring/Subsequence (NEW)
-- Shortest Common Superstring (NEW)
-- Rotating Calipers (NEW)
-- Sweep Line (NEW)
-- Suffix Tree/Array (NEW)
-- Lowest-Common-Ancestor (NEW)
-- Strongly Connected Components (NEW)
+- Kd Trees
+- ~~Kruskal's Algorithm~~
+- ~~Prim's Algorithm~~
+- Bellman-Ford Algorithm
+- Borkuva's Algorithm
+- Ford-Fulkerson Algorithm
+- Push-Relabel Algorithm
+- Dinic's Algorithm
+- Convex Hull
+- Heavy-Light Decomposition
+- Euler Tour
+- Maximum Bipartite Matching
+- Hungarian Algorithm
+- Segment Trees
+- Binary Indexed Trees
+- Backtracking/Pruning
+- Knuth-Morris-Pratt Algorithm
+- Boyre-Moore Algorithm
+- Vertex Cover
+- Traveling Salesman Problem
+- Hamiltonian Cycle
+- Edge Coloring
+- Largest Common Substring/Subsequence
+- Shortest Common Superstring
+- Rotating Calipers
+- Sweep Line
+- Suffix Tree/Array
+- Lowest-Common-Ancestor
+- Strongly Connected Components
