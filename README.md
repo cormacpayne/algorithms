@@ -13,7 +13,10 @@ Contains various algorithms needed for competitive programming
 - Borkuva's Algorithm
 - Heavy-Light Decomposition
 - Strongly Connected Components
+- Vertex Cover
+- Edge Coloring
 - Euler Tour
+- Hamiltonian Cycle
 
 **Flow Algorithms**
 - Ford-Fulkerson Algorithm
@@ -27,6 +30,8 @@ Contains various algorithms needed for competitive programming
 
 **Geometry**
 - Convex Hull
+- Rotating Calipers
+- Sweep Line
 
 **Number Theory**
 - GCD
@@ -39,18 +44,22 @@ Contains various algorithms needed for competitive programming
 - Knuth-Morris-Pratt Algorithm
 - Boyre-Moore Algorithm
 - Aho-Corasik Algorithm
-
-- Kd Trees
-- Segment Trees
-- Binary Indexed Trees
-- Backtracking/Pruning
-- Vertex Cover
-- Traveling Salesman Problem
-- Hamiltonian Cycle
-- Edge Coloring
 - Largest Common Substring/Subsequence
 - Shortest Common Superstring
-- Rotating Calipers
-- Sweep Line
+
+**String Data Structures**
 - Suffix Tree/Array
+- Trie
+
+**Advanced Data Structures**
+- Segment Trees
+- Binary Indexed Trees
+- Treaps
+- Skip Lists
+- Kd Trees
+
+**Backtracking and Pruning**
+
+**Misc**
+- Traveling Salesman Problem
 - Lowest-Common-Ancestor
