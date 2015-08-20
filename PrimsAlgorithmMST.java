@@ -7,10 +7,6 @@ class PrimsAlgorithmMST {
 	* SPOJ Problems:
 	* - CSTREET
 	* - MST
-	*
-	* UCF Problems:
-	* - CPU - 2007
-	* - ANT - 2014
 	*/
 
 	/* 
